@@ -1,0 +1,13 @@
+type: theory
+custom_name: Sequences Initialization with generateSequence
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    fun main() {
+        val sequenceNumber = generateSequence(1) { it + 1 }
+        sequenceNumber.take(5).forEach { print("$it ") }
+    }
+  learner_created: false
+status: Unchecked
+record: -1

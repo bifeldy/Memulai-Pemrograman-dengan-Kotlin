@@ -1,0 +1,27 @@
+type: output
+custom_name: Latihan
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    fun main() {
+        val text = "Kotlin".getFirstAndLast()
+
+        val firstChar = text["first"]
+        val lastChar = text["last"]
+
+        // TODO 2
+        println()
+
+    }
+
+    // TODO 1
+    fun String.getFirstAndLast() = mapOf<String, Char>()
+  learner_created: false
+- name: test/output.txt
+  visible: false
+  text: |
+    First letter is K and n for second letter
+  learner_created: false
+status: Solved
+record: -1

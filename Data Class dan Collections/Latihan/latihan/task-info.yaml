@@ -1,0 +1,31 @@
+type: output
+custom_name: latihan
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    fun main() {
+
+        // TODO 1
+        val user = mapOf<String, String>()
+
+        // TODO 2
+        val name = user.getValue("")
+        val age = user.getValue("")
+        val address = user.getValue("")
+
+        // TODO 3
+        println()
+
+    }
+  learner_created: false
+- name: test/output.txt
+  visible: false
+  text: |
+    User
+    Name: John
+    Age: 23
+    Address: St. Petersburg
+  learner_created: false
+status: Solved
+record: -1

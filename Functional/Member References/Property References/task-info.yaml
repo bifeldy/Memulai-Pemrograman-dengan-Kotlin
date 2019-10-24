@@ -1,0 +1,19 @@
+type: theory
+custom_name: Property References
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    var message = "Kotlin"
+
+    fun main() {
+        println(::message.name)
+        println(::message.get())
+
+        ::message.set("Kotlin Academy")
+
+        println(::message.get())
+    }
+  learner_created: false
+status: Unchecked
+record: -1

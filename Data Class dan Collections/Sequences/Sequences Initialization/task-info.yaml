@@ -1,0 +1,13 @@
+type: theory
+custom_name: Sequences Initialization
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    fun main() {
+        val list = (1..1000000).toList()
+        list.asSequence().filter { it % 5 == 0 }.map { it + it }.forEach { println(it) }
+    }
+  learner_created: false
+status: Unchecked
+record: -1

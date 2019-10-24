@@ -1,0 +1,17 @@
+type: output
+custom_name: Latihan 1
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    fun main() {
+        println()
+    }
+  learner_created: false
+- name: test/output.txt
+  visible: false
+  text: |
+    Kotlin is Awesome!
+  learner_created: false
+status: Solved
+record: -1
